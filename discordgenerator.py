@@ -64,7 +64,7 @@ class DiscordGen:
         if proxy:
             options.add_argument('--proxy-server=%s' % proxy)
 
-        self.driver = webdriver.Chrome(options=options, executable_path=r"chromedriver.exe")
+        self.driver = webdriver.Chrome(options=options, executable_path=r"chromedriver")
 
         self.email= email
         self.username = username
